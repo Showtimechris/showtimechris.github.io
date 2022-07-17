@@ -1,0 +1,37 @@
+@media only screen and (max-width: 480px) {
+    body {
+        overflow-x: hidde5;
+    }
+
+    h1 {
+        font-size: 38px;
+        text-align: left;
+    }
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+    }    
+    .hero-container {
+        margin-top: 30%;
+    }
+    .header {
+        margin-top: 20%;
+        margin-left:0;
+        width: 100%;
+    }
+    .text {
+        color: rgb(234, 234, 234);
+        width: 100%;
+        margin-left:0;
+        margin-bottom: 10%;
+    }
+    .hero-button {
+        margin-left: 0%;
+        margin-bottom: -7%;
+        width: 50%;
+    }
+    
+    
+    
+
+}
