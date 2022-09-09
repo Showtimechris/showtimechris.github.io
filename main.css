@@ -1,5 +1,10 @@
+*{
+  overflow-x: hidden;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 h2 {
   color: #5b5a5a;
@@ -8,13 +13,14 @@ h4 {
   color: #737373;
 
 }
+.text-grey {
+  color: rgb(200, 200, 200);
+}
 .main-logo {
     max-width: 150px;
     max-height: 100px;
 }
-.nav-item{
 
-}
 
 .lead {
     color: rgb(210, 210, 210);
@@ -24,6 +30,10 @@ h4 {
     width: 60%;
 }
 
+.notice {
+  background-color: #0DE6BC;
+
+}
 
 .cta {
     background-color: #0DE6BC;
@@ -49,7 +59,7 @@ span {
     color: #0DE6BC;
 }
 .float-icon-set {
-    margin-left: 20%;
+    margin-left: 10%;
     margin-bottom: 10%;
     opacity: 60%;
       }
@@ -58,8 +68,11 @@ span {
     max-width: 40px;
     margin: 2% 5%;
     animation: 
-    pulse 60s ease infinite alternate, 
-    nudge 60s linear infinite alternate;
+    pulse 10s ease infinite alternate, 
+    nudge 10s linear infinite alternate;
+}
+.icon-adjust {
+  margin-top: -3%;
 }
 
 
@@ -96,54 +109,25 @@ span {
   max-height: 1000px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@keyframes nudge {
-    0%, 100% {
-      transform: translate(0, 0);
-    }
+@media only screen and (max-width: 600px) {
+  #testimonial {
+    display: none;
     
-    50% {
-      transform: translate(20px, 0);
-    }
-    
-    80% {
-      transform: translate(-30px, 0);
-    }
   }
+}
+.services {
+  background-color:#173453 ;
+  background-color: #00ada2;
 
-  .fade-animation {
+}
+#footer {
+  background-color: #173453;
+}
 
-  
-    animation-duration: 3s;
-    animation-name: slidein;
-  }
-  
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
-  
+ .footer-icon {
+  width: 15px;
+ }
+ .sage-logo {
+  width: 50%;
+ }
+ 
