@@ -1,6 +1,4 @@
-*{
-  overflow-x: hidden;
-}
+
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -30,9 +28,17 @@ h4 {
     width: 60%;
 }
 
+.promotion {
+  background:linear-gradient(#000000, #00e3c1);
+
+}
 .notice {
   background-color: #0DE6BC;
 
+}
+.notice img {
+  width: 1.2rem;
+  height: 2rem;
 }
 
 .cta {
@@ -54,6 +60,11 @@ h4 {
   background:linear-gradient(#000000, #008ce3);
     /* background:linear-gradient(#000000, #000d42); */
     /* background:linear-gradient(#1073B2, #00F0DE); */
+}
+.hero-img {
+  max-width: 100%;
+  max-height: 100%;
+  z-index: -1;
 }
 span {
     color: #0DE6BC;
@@ -86,6 +97,8 @@ span {
 .user-interface-section {
     background-color: #0B99BF;
     background-color: #3799ee;
+    background:linear-gradient(#000000, #008ce3);
+
 }
 
 .feature-section {
@@ -122,6 +135,7 @@ span {
 }
 #footer {
   background-color: #173453;
+  background-color: #00B2C1;
 }
 
  .footer-icon {
@@ -129,5 +143,8 @@ span {
  }
  .sage-logo {
   width: 50%;
+ }
+ .footer-head {
+  font-size: 1.2rem;
  }
  
