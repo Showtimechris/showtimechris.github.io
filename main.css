@@ -155,6 +155,9 @@ span {
     display: none;
     
   }
+  .pos-4 {
+    display: none;
+  }
 }
 .services {
   background-color:#173453 ;
