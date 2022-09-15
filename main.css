@@ -37,6 +37,7 @@
   left: 500px;
   transform: translatey(0px);
 	animation: float-animation 6s ease-in-out infinite;
+ 
 
 }
 body {
@@ -44,7 +45,7 @@ body {
     overflow-x: hidden;
 }
 h2 {
-  color: #5b5a5a;
+  color: #9b9b9b;
 }
 h4 {
   color: #737373;
@@ -95,11 +96,19 @@ h4 {
     color: white;
 
 }
+/* Hero Section */
+.btn {
+  z-index: 2;
+}
+.btn-outline {
+  color: rgb(255, 255, 255);
+  border: none;
+  border-color: rgb(48, 211, 124);
+}
 .hero {
   position: relative;
-  background:linear-gradient(#000000, #008ce3);
-    /* background:linear-gradient(#000000, #000d42); */
-    /* background:linear-gradient(#1073B2, #00F0DE); */
+  /* background:linear-gradient(#000000, #008ce3); */
+    background:linear-gradient(#1073B2, #00F0DE);
 }
 .hero-img {
   max-width: 100%;
@@ -124,13 +133,13 @@ span {
 
 .user-interface-section {
     background-color: #0B99BF;
-    background-color: #3799ee;
-    background:linear-gradient(#000000, #008ce3);
+    /* background-color: #3799ee;
+    background:linear-gradient(#000000, #008ce3); */
 
 }
 
 .feature-section {
-    background-color: #0D9EE6;
+    background-color: #115b7f;
 
 }
 .feature-icon {
@@ -173,10 +182,10 @@ span {
   width: 15px;
  }
  .sage-logo {
-  width: 50%;
+  width: 30%;
  }
  .footer-head {
-  font-size: 1.2rem;
+  font-size: 1rem;
  }
  
  @keyframes float-animation {
