@@ -4,7 +4,7 @@
   position: absolute;
   bottom: 50px;
   left: 100px;
-  opacity: 70%;
+  opacity: 50%;
   transform: translatey(0px);
 	animation: float-animation 6s ease-in-out infinite;
 }
@@ -13,7 +13,7 @@
   position: absolute;
   bottom: 120px;
   right: 100px;
-  opacity: 60%;
+  opacity: 50%;
   transform: translatey(0px);
 	animation: float-animation 6s ease-in-out infinite;
 
@@ -35,6 +35,7 @@
   position: absolute;
   bottom: 250px;
   left: 500px;
+  opacity: 80%;
   transform: translatey(0px);
 	animation: float-animation 6s ease-in-out infinite;
  
@@ -56,7 +57,7 @@ h4 {
 }
 .main-logo {
     max-width: 150px;
-    max-height: 100px;
+    max-height: 75px;
 }
 
 
@@ -107,8 +108,9 @@ h4 {
 }
 .hero {
   position: relative;
-  /* background:linear-gradient(#000000, #008ce3); */
-    background:linear-gradient(#1073B2, #00F0DE);
+  background:linear-gradient(#000000, #00aaff);
+    /* background:linear-gradient(#1073B2, #00F0DE); */
+    background: linear-gradient(#12315f, black);
 }
 .hero-img {
   max-width: 100%;
@@ -139,7 +141,7 @@ span {
 }
 
 .feature-section {
-    background-color: #115b7f;
+  background-color: #0B99BF;
 
 }
 .feature-icon {
@@ -170,8 +172,7 @@ span {
 }
 .services {
   background-color:#173453 ;
-  background-color: #00ada2;
-
+ 
 }
 #footer {
   background-color: #173453;
@@ -201,4 +202,12 @@ span {
 		
 		transform: translatey(0px);
 	}
+}
+
+/* Contact Form */
+.contact-us-form{
+  background-color: #62d3ff;
+}
+label {
+  color: #ffffff;
 }
