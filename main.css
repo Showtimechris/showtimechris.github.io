@@ -43,7 +43,8 @@
 }
 body {
     /* font-family: 'Poppins', sans-serif; */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito', sans-serif;
+
 
     overflow-x: hidden;
 }
@@ -79,7 +80,7 @@ h6 {
 
 }
 .notice {
-  background-color: #0DE6BC;
+  background-color: #007c7f;
 
 }
 .notice img {
@@ -115,7 +116,7 @@ h6 {
   position: relative;
   background:linear-gradient(#000000, #00aaff);
     /* background:linear-gradient(#1073B2, #00F0DE); */
-    background: linear-gradient(#02293d, #000000);
+    background: linear-gradient(#001509, #00aaff);
 }
 .hero-img {
   max-width: 100%;
@@ -140,7 +141,7 @@ span {
 
 .user-interface-section {
     /* background-color: #0B99BF; */
-    background-color: #003443;
+    background-color: #007194;
     
     /* background-color: #3799ee;
     background:linear-gradient(#000000, #008ce3); */
@@ -179,7 +180,7 @@ span {
   }
 }
 .services {
-  background-color:#173453 ;
+  background-color: white;
  
 }
 #footer {
