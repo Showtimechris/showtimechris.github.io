@@ -67,12 +67,14 @@ h6 {
 }
 .main-logo {
     max-width: 150px;
-    max-height: 75px;
+    max-height: 60px;
+}
+p span{
+  color: rgb(139 211 215);
 }
 
-
 .lead {
-    color: rgb(200, 200, 200);
+    color: rgb(182, 182, 182);
 }
 
 .text-wrap {
@@ -118,7 +120,7 @@ h6 {
 }
 .hero {
   position: relative;
-  background:linear-gradient(#000000, #00413c);
+  background:linear-gradient(#000000, #000000);
     /* background:linear-gradient(#1073B2, #00F0DE); */
 }
 .hero-img {
@@ -144,13 +146,16 @@ span {
 
 .user-interface-section {
     /* background-color: #0B99BF; */
-    background-color: #0898d9;
+    background-color: #212529;
     
     /* background-color: #3799ee;
     background:linear-gradient(#000000, #008ce3); */
 
 }
 
+.questions {
+  background-color: #171717;
+}
 .feature-section {
   background-color: #0ce6bc29;
 
@@ -192,8 +197,8 @@ span {
  
 }
 #footer {
-  background-color: #173453;
-  background-color: #00B2C1;
+  background-color: #212529;
+  
 }
 
  .footer-icon {
