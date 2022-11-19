@@ -233,3 +233,10 @@ span {
 label {
   color: #ffffff;
 }
+.user-interface {
+  background-color: #6ba2a5;
+}
+
+.header-item {
+  background-color: #fff;
+}
