@@ -120,7 +120,7 @@ p span{
 }
 .hero {
   position: relative;
-  background:linear-gradient(#000000, #000000);
+  background:linear-gradient(#067989, #000000);
     /* background:linear-gradient(#1073B2, #00F0DE); */
 }
 .hero-img {
@@ -151,6 +151,9 @@ span {
     /* background-color: #3799ee;
     background:linear-gradient(#000000, #008ce3); */
 
+}
+.user-interface-section p {
+  font-size: 1.1rem;
 }
 
 .questions {
@@ -234,9 +237,15 @@ label {
   color: #ffffff;
 }
 .user-interface {
-  background-color: #6ba2a5;
+  background-color:#067989;
+}
+.user-interface p {
+  font-size: 1.1rem;
 }
 
 .header-item {
   background-color: #fff;
+}
+.qanda {
+  font-size: 1.1em;
 }
