@@ -4,7 +4,7 @@ hr {
   margin: 2% auto;
 }
 .pos-1 {
-  width: 50px;
+  width: 80px;
   position: absolute;
   bottom: 50px;
   left: 100px;
@@ -13,7 +13,7 @@ hr {
 	animation: float-animation 6s ease-in-out infinite;
 }
 .pos-2 {
-  width: 50px;
+  width: 65px;
   position: absolute;
   bottom: 120px;
   right: 100px;
@@ -28,7 +28,7 @@ hr {
   position: absolute;
   bottom: 350px;
   left: 200px;
-  opacity: 60%;
+  opacity: 20%;
   transform: translatey(0px);
 	animation: float-animation 6s ease-in-out infinite;
 
@@ -131,6 +131,9 @@ p span{
 span {
     color: #0DE6BC;
 }
+.cta-btn {
+  background-color: #89dd78;
+}
 
 .icon-adjust {
   margin-top: -3%;
@@ -146,7 +149,7 @@ span {
 
 .user-interface-section {
     /* background-color: #0B99BF; */
-    background-color: #212529;
+    background:linear-gradient(#067989, #000000);
     
     /* background-color: #3799ee;
     background:linear-gradient(#000000, #008ce3); */
@@ -157,16 +160,16 @@ span {
 }
 
 .questions {
-  background-color: #171717;
+  background-color: #121822;
 }
 .feature-section {
-  background-color: #0ce6bc29;
+  background-color: #121822;
 
 
 
 }
 .special-text {
-  color: #383838;
+  color: #a7a7a7;
 }
 .feature-icon {
     width: 45px;
